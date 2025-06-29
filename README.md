@@ -11,23 +11,20 @@ Un projet data pipeline pour extraire des données brutes économique de l'UE
 - Une visualization des données à l'aide de streamlit
 
 ```bash
-pip install foobar
+python3 -m venv airflow_venv
+source airflow_venv/bin/activate
+pip install apache-airflow==2.7.0 \
+  --constraint https://raw.githubusercontent.com/apache/airflow/constraints-2.7.0/constraints-3.10.txt
 ```
 
-## Usage
+## Technolgies utilisées
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+- Python 3.10.8
+- Pandas
+- Plotly
+- AIRFLOW 2.7
+- SQLALCHEMY
+- Docker 
 
 ## Contributing
 
