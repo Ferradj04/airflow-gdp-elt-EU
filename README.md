@@ -27,6 +27,7 @@ pip install apache-airflow==2.7.0 \
 - Docker 
 
 ## 📂 Structure du projet
+
 mon-projet/
 ├── app/
     └── dashboard.py
@@ -39,6 +40,7 @@ mon-projet/
 ├── docker-compose.yaml
 ├── README.md
 └── requirements.txt
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
