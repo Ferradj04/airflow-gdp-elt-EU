@@ -26,13 +26,19 @@ pip install apache-airflow==2.7.0 \
 - SQLALCHEMY
 - Docker 
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
+## 📂 Structure du projet
+mon-projet/
+├── app/
+    └── dashboard.py
+├── dags/
+    └── elt.csv
+├── data/
+    └── data_eu_gdp.csv
+    └── db.sqlite3
+├── venv/
+├── docker-compose.yaml
+├── README.md
+└── requirements.txt
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
