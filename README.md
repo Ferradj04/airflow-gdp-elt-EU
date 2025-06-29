@@ -1,10 +1,10 @@
-# Foobar
+# Airflow GDP ELT EU
 
-Foobar is a Python library for dealing with word pluralization.
+Un projet data pipeline pour extraire des données brutes économique de l'UE
 
-## Installation
+## 🚀 Fonctionnalités
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Extraction des données brutes à l'aide de Airflow
 
 ```bash
 pip install foobar
