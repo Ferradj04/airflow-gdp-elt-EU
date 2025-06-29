@@ -17,7 +17,7 @@ pip install apache-airflow==2.7.0 \
   --constraint https://raw.githubusercontent.com/apache/airflow/constraints-2.7.0/constraints-3.10.txt
 ```
 
-## Technolgies utilisées
+## 🛠️ Technolgies utilisées
 
 - Python 3.10.8
 - Pandas
