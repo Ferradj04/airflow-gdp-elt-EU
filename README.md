@@ -43,6 +43,17 @@ mon-projet/
 └── requirements.txt
 ```
 
+## 📂 ✈ Demmarage du projet 
+```bash
+.\venv\Scripts\activate
+docker-compose up 
+```
+## UI 
+```bash
+cd app
+streamlit run dashboard.py
+```
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
