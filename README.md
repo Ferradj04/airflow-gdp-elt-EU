@@ -43,7 +43,7 @@ mon-projet/
 └── requirements.txt
 ```
 
-## 📂 ✈ Demmarage du projet 
+## ✈ Demmarage du projet 
 ```bash
 .\venv\Scripts\activate
 docker-compose up 
